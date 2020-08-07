@@ -4,8 +4,8 @@
 #define SEGMENT_OFF LOW
 #define TRIGDIST 5
 
-const int trigger_pin = 8;
-const int echo_pin = 9;
+const int trigger_pin = 1;
+const int echo_pin = 4;
 
 const int digitPins[] = {7, 9, 10, 13};                                        // ディジット(コモン)に接続するArduinoのピン
 const int segmentPins[] = {12, 8, 5, 3, 2, 11, 6};                             // セグメントピンに接続するArduinoのピン
